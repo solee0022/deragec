@@ -14,7 +14,7 @@ conda env create --file environment.yaml
 We provide one **Common Voice** (cv) datapoint and one **STOP** (stop) datapoint as example inputs for inference. You can find them in the ```examples``` directory.
 
 ## Inference
-### Filterining Named_Entities
+#### Filterining Named_Entities
 To run the filtering process and generate the filtered results in the output folder, execute the following command:
 ``` 
 python inference_filtering.py --method DeRAGEC --data_type cv
@@ -22,7 +22,7 @@ python inference_filtering.py --method DeRAGEC --data_type cv
 
 The filtered output will be saved automatically to the ```output``` directory.
 
-### Generative Error Correction (GEC)
+#### Generative Error Correction (GEC)
 To run the GEC module and generate corrected outputs, execute the following command:
 ``` 
 python inference_gec.py --method DeRAGEC --data_type cv
