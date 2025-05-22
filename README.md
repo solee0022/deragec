@@ -1,5 +1,5 @@
 # deragec
-The official implementation for the ACL 2025 paper **_DeRAGEC: Denoising Named Entity Candidates with Synthetic Rationale for ASR Error Correction._**
+🌟 The official implementation for the ACL 2025 paper **_DeRAGEC: Denoising Named Entity Candidates with Synthetic Rationale for ASR Error Correction._** 🌟
 
 ## Requirements
 * Python 3.10
