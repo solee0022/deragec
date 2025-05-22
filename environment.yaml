@@ -108,4 +108,3 @@ dependencies:
     - xxhash==3.5.0
     - yarl==1.20.0
     - zstandard==0.23.0
-prefix: /home/solee0022/anaconda3/envs/py310_251
