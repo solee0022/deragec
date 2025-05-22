@@ -22,8 +22,7 @@ def formatting_mcq(datapoint, q, f_dict):
             set_scores.append(scores[n_idx])
             
     ## === MCQ+PS+Def === ##    
-    options = ""   
-    dic = {}          
+    options = ""          
     for num, (n, ps) in enumerate(zip(set_ne, set_scores)):
         
         ## add named_entity's definition
@@ -36,8 +35,7 @@ def formatting_mcq(datapoint, q, f_dict):
         else:
             defini = n
         
-        
-        defini_tmp = defini.split()[:30]
+        defini_tmp = defini.split()[:20]
         defini_tmp = " ".join(defini_tmp).replace("\n", " ").strip()
 
         options += f"{numbering[num]}: {n} ({ps:.2f} | {defini_tmp})\n" 

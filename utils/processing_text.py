@@ -6,10 +6,8 @@ from num2words import num2words
 normalizer = EnglishTextNormalizer()
 
 def processing(text):
-    # text = text.replace("'s", "apostrophe s") # To distinguish between possessive ('s) and verb ('s)
     text = normalizer(text)
     text = re.sub(r"[-+]?\d*\.?\d+|\d+%?", lambda m: num2words(m.group()), text).replace('%', ' percent')
-    # text = text.replace("apostrophe s", "'s")
     return text.strip()
 
 def processing_nbest(nbest):
@@ -24,7 +22,6 @@ def processing_nbest(nbest):
             input.append(repeat)
 
     for i in range(len(input)):
-        # text = processing(input[i])
         text = input[i]
         input[i] = text if len(text) > 0 else '<UNK>'
     

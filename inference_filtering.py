@@ -62,7 +62,7 @@ def main(
     
     fewshot_examples = open(f"fewshots/{cfg.method}_{cfg.asr_model}_filtering.txt", "r")
     fewshot_examples = fewshot_examples.read()
-    fewshot_examples = "<input>".join(fewshot_examples.split("<input>")[:5]) # Number of few-shot examples included in the prompt
+    fewshot_examples = "<input>".join(fewshot_examples.split("<input>")[:4]) # Number of few-shot examples included in the prompt
     
     if cfg.method == "RAGEC":
         template = open(f"templates/template_MCQ.txt", "r")

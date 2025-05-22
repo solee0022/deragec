@@ -74,7 +74,7 @@ def main(
     ## fewshot examples
     fewshot_examples = open(f"fewshots/{cfg.method}_{cfg.asr_model}.txt", "r")
     fewshot_examples = fewshot_examples.read()
-    fewshot_examples = "<input>".join(fewshot_examples.split("<input>")[:5]) # Number of few-shot examples included in the prompt
+    fewshot_examples = "<input>".join(fewshot_examples.split("<input>")[:4]) # Number of few-shot examples included in the prompt
     
     template = partial(template.format, fewshot_examples=fewshot_examples)
 
