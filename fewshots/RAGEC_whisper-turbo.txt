@@ -1,0 +1,70 @@
+
+<input>
+5-best: ['somerville shared the patent for the case extracting system with gallant', 'somerville shared the patent for the case extracting system with gallant', 'somerville shared the patent for the case extracting system with gallant', 'somerville shared the patent for the case extracting system with gallant', 'somerville shared the patent for the case extracting system with gallant']
+Named-Entities: ['Somerville', 'Summersville', 'Somervell', 'Summerhill', 'Sommerville', 'Summer Hill', 'Merville', 'Summerlin', 'Upperville', 'Summerall', 'Gallant', 'talent', 'Galland', 'Gallieni', 'Valiant', 'gangland', 'talents', 'Golant', 'Galleani', 'Galman']
+<output>
+Corrected: sommerville shared the patent for the case extracting system with galand
+
+
+<input>
+5-best: ['vipler observed that it was very apparent that he had exceptional talent', 'vipler observed that it was very apparent that he had exceptional talent', 'wipler observed that it was very apparent that he had exceptional talent', 'wippler observed that it was very apparent that he had exceptional talent', 'wipler observed that it was very apparent that he had exceptional talent']
+Named-Entities: ['Wippler', 'Villar', 'dipelor', 'Killer', 'Schiller', 'Imler', 'Poplar', 'Vizier', 'Sizzler', 'Valor']
+<output>
+Corrected: wippler observed that it was very apparent that he had exceptional talent
+
+
+<input>
+5-best: ['bike along hastings street is the co op supermarket as well as the courthouse', 'bike along hastings street is the co op supermarket as well as the courthouse', 'bike along hastings street is the co op supermarket as well as the courthouse', 'bike along hastings street is the co op supermarket as well as the courthouse', 'bike along hastings street is the co op supermarket as well as the courthouse']
+Named-Entities: ['Hastings Street', 'Hastings city', 'Hastings team', 'Hayes Street', 'Basinghall Street', 'neighbouring street', 'Halsted Street', 'Hastings Park', 'Hastings County', 'Mason Street', 'Co-op supermarket', 'Coles Supermarket', 'local supermarket', 'Dover Supermarket', 'local supermarkets', 'Co-operative supermarket', 'Red Owl supermarket', 'Swiss supermarkets', 'nearby supermarket', 'Tesco supermarket', 'courthouse', 'Court House', 'core house', 'Courthouses', 'port house', 'Lofthouse', 'your house', 'Morehouse', 'The Courthouse', 'new courthouse']
+<output>
+Corrected: back along hastings street is the co op supermarket as well as the court house
+
+
+<input>
+5-best: ['in spite of their absurdity the world affected philip curiously', 'in spite of their absurdity the world affected philip curiously', 'in spite of their absurdity the world affected the nit curiously', 'in spite of their absurdity the world affected the nit curiously', 'in spite of their absurdity the world affected philip curiously']
+Named-Entities: ['The world', 'The earl', 'The Work', 'The Earls', 'Sea World', 'The girl', 'The Third', 'McWorld', 'The Wirral', 'The Herd', 'Phillippe', 'Philips', 'Filan', 'Phylace', 'Filip', 'Philp', 'Phelim', 'Billopp', 'Philippine', 'Philopon']
+<output>
+Corrected: in spite of their absurdity the words affected philip curiously
+
+
+<input>
+5-best: ['in sophocles tragedy antigone pauline is story continues after his death', 'in sophocles tragedy antigone pauline is story continues after his death', 'in sophocles tragedy antigone polinae is story continues after his death', 'in sophocles tragedy antigone pauline is story continues after his death', 'in sophocles tragedy antigone polinae is story continues after his death']
+Named-Entities: ['Sophocles', 'Paso Robles', 'Xenocles', 'Sohonet', 'Eteocles', 'Domokos', 'Phokas', 'opoles', 'Ozols', 'Go-Local', 'Anthony Callea', 'Anthony Fauci', 'Trinity Fallen', 'Ziggy Palffy', 'company police', 'Stephanie Keene', 'Stephen Kleene', 'Tammany Hall', 'Ian Paulin', 'Anthony Hall']
+<output>
+Corrected: in sophocles tragedy antigone polynices story continues after his death
+
+
+<input>
+5-best: ['the floor is january eleven with some areas of irregularity to the south', 'the floor is january eleven with some areas of irregularity to the south', 'the floor is generally level with some areas of irregularity to the south', 'the floor is january eleven with some areas of irregularity to the south', 'the floor is generally level with some areas of irregularity to the south']
+Named-Entities: ['the floor', 'the four', 'The fjord', 'The fiord', 'The Nore', 'The Fly', 'The store', 'The corps', 'The Laune', 'The Fall', 'Ginny Lemon', 'Janet Leigh Lyon', 'Junior Clement', 'Jennifer Levin', 'Jere Allen', 'Johnny L. Wilson', 'Jenny Sullivan', 'Jack Lemmon', 'junior seamen', 'Geoffrey Elton']
+<output>
+Corrected: the floor is generally level with some areas of irregularity to the south
+
+
+<input>
+5-best: ['lamb blogs regularly on huffington post', 'lamb blogs regularly on huffington post', 'lamb blogs regularly on huffington post', 'lamb blogs regularly on huffington post', 'lamb blogs regularly on huffington post']
+Named-Entities: ['Lamb', 'Lamour', 'Slam', 'Flamm', 'Lampay', 'Alam', 'Iam', 'Lem', 'lap', 'Tam', 'Huffington Post', 'The Huffington Post', 'Washington Post', 'The Washington Post', 'Russian Post', 'Wellington Point', 'Boston Post', 'Pakistan Post', 'important post', 'The Boston Post']
+<output>
+Corrected: lam blogs regularly on huffington post
+
+
+<input>
+5-best: ['but no more than that bk surpasses him by a long way', 'but no more than that bk surpasses him by a long way', 'but no more than that bk surpasses him by a long way', 'but no more than that bk surpasses him by a long way', 'but no more than that bk surpasses him by a long way']
+Named-Entities: ['BC', 'Bukay', 'Bek', 'back', 'Book', 'Buck', 'beack', 'Bock', 'Balk', 'Block']
+<output>
+Corrected: but no more than that beecke surpasses him by a long way
+
+
+<input>
+5-best: ['capaldi begins to form an attachment to smith', 'capelti begins to form an attachment to smith', 'kapauty begins to form an attachment to smith', 'kapelti begins to form an attachment to smith', 'capete begins to form an attachment to smith']
+Named-Entities: ['Capaldi', 'Cataldi', 'Castaldi', 'Papale', 'Kalady', 'Copley', 'casale', 'Cappagli', 'Kopili', 'Gastaldi', 'Smith', 'Smiths', 'Smithie', 'Stith', 'Smear', 'Smit', 'Sith', 'Nasmith', 'Simic', 'Smits']
+<output>
+Corrected: capote begins to form an attachment to smith
+
+
+<input>
+5-best: ['the spin off company was named paperlinks', 'the spin off company was named paperlinks', 'the spin off company was named paperlinks', 'the spin off company was named paperlinks', 'the spin off company was named paperlinks']
+Named-Entities: ['papermill', 'Kamerling', 'paper-hanger', 'Cypherpunks', 'Syrinx', 'matrix', 'Teerlinc', 'Haterius', 'Papertown', 'phalanx']
+<output>
+Corrected: the spin off company was named paperlinx
+

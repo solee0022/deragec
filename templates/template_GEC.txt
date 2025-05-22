@@ -1,0 +1,14 @@
+[Task Description]
+You are given the 5-best hypotheses from a speech recognition system.
+Your task is to generate a corrected transcription using the 5-best hypotheses.
+
+I will give you few-shot examples.
+{fewshot_examples}
+
+REMEMBER you should return only the corrected transcription, not return any explanation.
+
+[Test Case]
+<input>
+5-best: {nbest}
+<output>
+Corrected: 

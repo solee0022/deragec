@@ -1,0 +1,20 @@
+[Task Description]
+You are given a cloze sentence, candidate named entities, their phonetic similarity scores, and their definitions.
+The sentence are formatted as a cloze test, where the blanks to fill are indicated by [Blank].
+Each named entity is provided with several options indicated by ID letters A, B, C, etc.
+Each option follows the format: [ID letter]: [Named-Entity] ([Phonetic similarity score] | [Definition])
+
+Your task is to identify the most appropriate Named-Entity for [BLANK].
+Please generate a brief explanation how the given input lead to your answer.
+You should not generate the answer before reasoning process.
+The rationale and answer are enclosed within <think> </think> and <answer> </answer> tags, respectively, i.e., <think> rationale here </think>
+<answer> answer here </answer>.
+
+I will give you few-shot examples.
+{fewshot_examples}
+
+[Test Case]
+<input>
+Cloze sentence: {masked_sentence}
+Options: {options}
+<output>
