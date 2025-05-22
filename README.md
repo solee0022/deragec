@@ -10,7 +10,6 @@
 conda env create --file environment.yaml
 ```
 
----
 
 ## 📚 Dataset
 
@@ -19,7 +18,6 @@ We provide one **Common Voice** (`cv`) datapoint and one **STOP** (`stop`) datap
 - The raw **Common Voice** test set used in our work is available from the [HP dataset repository](https://github.com/Hypotheses-Paradise/HP-v0).
 - The raw **STOP** test set is available from the [STOP dataset repository](https://github.com/facebookresearch/fairseq/tree/main/examples/audio_nlp/nlu).
 
----
 
 ## 🏷️ Named Entity Database
 
@@ -28,7 +26,6 @@ We provide one **Common Voice** (`cv`) datapoint and one **STOP** (`stop`) datap
 https://github.com/apple/ml-interspeech2022-phi_rtn
 - Definitions for named entities can be retrieved using the following script: ```python utils/wiki.py```
 
----
 
 ## 🚀 Inference
 #### Filterining Named_Entities
