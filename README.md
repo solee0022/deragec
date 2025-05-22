@@ -1,11 +1,12 @@
 # deragec
 🌟 The official implementation for the ACL 2025 paper **_DeRAGEC: Denoising Named Entity Candidates with Synthetic Rationale for ASR Error Correction._** 🌟
 
-## 🛠️ Requirements
+## ⚙️ Requirements
 - Python 3.10
 - PyTorch 2.5.1
 - Transformers 4.45.0
 - CUDA 12.4
+To create the conda environment, run:
 ```
 conda env create --file environment.yaml
 ```
@@ -17,6 +18,15 @@ We provide one **Common Voice** (`cv`) datapoint and one **STOP** (`stop`) datap
 
 - The raw **Common Voice** test set used in our work is available from the [HP dataset repository](https://github.com/Hypotheses-Paradise/HP-v0).
 - The raw **STOP** test set is available from the [STOP dataset repository](https://github.com/facebookresearch/fairseq/tree/main/examples/audio_nlp/nlu).
+
+
+## 🤖 Model
+We employ the following language models for both named-entity filtering and generative error correction:
+
+- **Meta-Llama-3.1-70B-Instruct** (AWQ-INT4) — hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4
+- **GPT-4o-mini** — gpt-4o-mini-2024-07-18
+
+All experiments are carried out in a *training-free* setting, relying exclusively on *in-context learning* to evaluate the effectiveness of our explicit denoising approach.
 
 
 ## 🏷️ Named Entity Database
