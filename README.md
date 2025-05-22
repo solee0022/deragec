@@ -24,7 +24,7 @@ We provide one **Common Voice** (`cv`) datapoint and one **STOP** (`stop`) datap
 - Named entities can be extracted from the [Common Voice training set](https://commonvoice.mozilla.org/en/datasets) using the following script: ```utils/extract_ne.py```
 - Additional media entities can be obtained from this open-source resource:
 https://github.com/apple/ml-interspeech2022-phi_rtn
-- Definitions for named entities can be retrieved using the following script: ```utils/wiki.py```
+- Definitions for named entities can be collected using the Wikipedia API. 
 
 
 ## 🚀 Inference
@@ -33,7 +33,6 @@ To run the filtering process and generate the filtered results in the output fol
 ``` 
 python inference_filtering.py --method DeRAGEC --data_type cv
 ```
-
 The filtered output will be saved automatically to the ```output``` directory.
 
 #### Generative Error Correction (GEC)
