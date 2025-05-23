@@ -43,6 +43,8 @@ https://github.com/apple/ml-interspeech2022-phi_rtn
 To run the filtering process and generate the filtered results in the output folder, execute the following command:
 ``` 
 python inference_filtering.py --method DeRAGEC --data_type cv
+# method = [RAGEC+MCQ|RAGEC+MCQ+PS+Def|DeRAGEC]
+# data_type = [cv|stop]
 ```
 The filtered output will be saved automatically to the ```output``` directory.
 
@@ -50,5 +52,7 @@ The filtered output will be saved automatically to the ```output``` directory.
 To run the GEC module and generate corrected outputs, execute the following command:
 ``` 
 python inference_gec.py --method DeRAGEC --data_type cv
+# method = [GEC|RAGEC|RAGEC+MCQ|RAGEC+MCQ+PS+Def|DeRAGEC]
+# data_type = [cv|stop]
 ```
 The corrected output will be printed directly to the console.
