@@ -47,6 +47,7 @@ python inference_filtering.py --method DeRAGEC --data_type cv
 
 - `--method`: `RAGEC+MCQ`, `RAGEC+MCQ+PS+Def`, `DeRAGEC`
 - `--data_type`: `cv`, `stop`
+
 The filtered output will be saved automatically to the ```output``` directory.
 
 #### Generative Error Correction (GEC)
@@ -57,4 +58,5 @@ python inference_gec.py --method DeRAGEC --data_type cv
 
 - `--method`: `GEC`, `RAGEC`, `RAGEC+MCQ`, `RAGEC+MCQ+PS+Def`, `DeRAGEC`
 - `--data_type`: `cv`, `stop`
+
 The corrected output will be printed directly to the console.
