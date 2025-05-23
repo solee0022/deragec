@@ -1,0 +1,271 @@
+<input>
+Cloze sentence: but no more than that [BLANK] surpasses him by a long way
+Options: A: bk
+B: BC 
+C: beecke
+D: Bukay
+E: Bek
+F: back
+G: Book
+H: Buck
+I: beack
+J: Bock
+K: Balk
+L: Block
+
+<output>
+Answer: C: beecke
+
+
+
+<input>
+Cloze sentence: in sophocles tragedy [BLANK] is story continues after his death
+Options: A: antigone pauline
+B: antigone polinae
+C: antigone
+D: Anthony Callea
+E: Anthony Fauci
+F: Trinity Fallen
+G: Ziggy Palffy
+H: company police
+I: Stephanie Keene
+J: Stephen Kleene
+K: Tammany Hall
+L: Ian Paulin
+M: Anthony Hall
+
+<output>
+Answer: C: antigone
+
+
+
+<input>
+Cloze sentence: somerville shared the patent for the case extracting system with [BLANK]
+Options: A: gallant
+B: galand
+C: Gallant
+D: talent
+E: Galland
+F: Gallieni
+G: Valiant
+H: gangland
+I: talents
+J: Golant
+K: Galleani
+L: Galman
+
+<output>
+Answer: B: galand
+
+
+
+<input>
+Cloze sentence: [BLANK] observed that it was very apparent that he had exceptional talent
+Options: A: vipler
+B: wipler
+C: wippler
+D: Wippler
+E: Villar
+F: dipelor
+G: Killer
+H: Schiller
+I: Imler
+J: Poplar
+K: Vizier
+L: Sizzler
+M: Valor
+
+<output>
+Answer: C: wippler
+
+
+
+<input>
+Cloze sentence: bike along [BLANK] is the co op supermarket as well as the courthouse
+Options: A: hastings street
+B: Hastings Street
+C: Hastings city
+D: Hastings team
+E: Hayes Street
+F: Basinghall Street
+G: neighbouring street
+H: Halsted Street
+I: Hastings Park
+J: Hastings County
+K: Mason Street
+
+<output>
+Answer: A: hastings street
+
+
+
+<input>
+Cloze sentence: the spin off company was named [BLANK]
+Options: A: paperlinks
+B: papermill
+C: Kamerling
+D: paper-hanger
+E: Cypherpunks
+F: Syrinx
+G: matrix
+H: Teerlinc
+I: Haterius
+J: Papertown
+K: phalanx
+L: paperlinx
+
+<output>
+Answer: L: paperlinx
+
+
+
+<input>
+Cloze sentence: bike along hastings street is the [BLANK] as well as the courthouse
+Options: A: co op supermarket
+B: Co-op supermarket
+C: Coles Supermarket
+D: local supermarket
+E: Dover Supermarket
+F: local supermarkets
+G: Co-operative supermarket
+H: Red Owl supermarket
+I: Swiss supermarkets
+J: nearby supermarket
+K: Tesco Supermarket
+
+<output>
+Answer: A: co op supermarket
+
+
+
+<input>
+Cloze sentence: bike along hastings street is the co op supermarket as well as the [BLANK]
+Options: A: courthouse
+B: Court House
+C: core house
+D: Courthouses
+E: port house
+F: Lofthouse 
+G: your house
+H: Morehouse
+I: court house
+J: The Courthouse
+K: new courthouse
+
+<output>
+Answer: I: court house
+
+
+
+<input>
+Cloze sentence: [BLANK] shared the patent for the case extracting system with gallant
+Options: A: somerville
+B: Somerville
+C: Summersville
+D: Somervell
+E: Summerhill
+F: Sommerville
+G: sommerville
+H: Summer Hill
+I: Merville
+J: Summerlin
+K: Upperville
+L: Summerall
+
+<output> 
+Answer: G: sommerville
+
+
+
+<input>
+Cloze sentence: in spite of their absurdity the world affected [BLANK] curiously
+Options: A: philip
+B: the nit
+C: Phillippe
+D: Philips
+E: Filan
+F: Phylace
+G: Filip
+H: Philp
+I: Phelim
+J: Billopp
+K: Philippine
+L: Philopon
+
+<output>
+Answer: A: philip
+
+
+<input>
+Cloze sentence: in [BLANK] tragedy antigone pauline is story continues after his death
+Options: A: sophocles
+B: Sophocles
+C: Paso Robles
+D: Xenocles
+E: Sohonet
+F: Eteocles
+G: Domokos
+H: Phokas
+I: opoles
+J: Ozols
+K: Go-local
+
+<output>
+Answer: A: sophocles
+
+
+
+<input>
+Cloze sentence: the floor is [BLANK] with some areas of irregularity to the south
+Options: A: january eleven
+B: generally level
+C: Ginny Lemon
+D: Janet Leigh Lyon
+E: Junior Clement
+F: Jennifer Levin
+G: Jere Allen
+H: Johnny L. Wilson
+I: Jenny Sullivan
+J: Jack Lemmon
+K: junior seamen
+L: Geoffrey Elton
+
+<output>
+Answer: B: generally level
+
+
+<input>
+Cloze sentence: [BLANK] blogs regularly on huffington post
+Options: A: lamb
+B: Lamb
+C: Lamour
+D: Slam
+E: Flamm
+F: Lampay
+G: Alam
+H: Iam
+I: Lem
+J: lap
+K: lam
+L: Tam
+
+<output>
+Answer: K: lam
+
+
+<input>
+Cloze sentence: lamb blogs regularly on [BLANK]
+Options: A: huffington post (1.00 | huffington post)
+B: Huffington Post
+C: The Huffington Post
+D: Washington Post
+E: The Washington Post
+F: Russian Post
+G: Wellington Point
+H: Boston Post
+I: Pakistan Post
+J: important post
+K: The Boston Post
+
+<output>
+Answer: A: huffington post

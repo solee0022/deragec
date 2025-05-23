@@ -1,0 +1,69 @@
+
+<input>
+5-best: ['somerville shared the patent for the case extracting system with gallant', 'somerville shared the patent for the case extracting system with gallant', 'somerville shared the patent for the case extracting system with gallant', 'somerville shared the patent for the case extracting system with gallant', 'somerville shared the patent for the case extracting system with gallant']
+Named-Entities: sommerville, galand
+<output>
+Corrected: sommerville shared the patent for the case extracting system with galand
+
+
+<input>
+5-best: ['vipler observed that it was very apparent that he had exceptional talent', 'vipler observed that it was very apparent that he had exceptional talent', 'wipler observed that it was very apparent that he had exceptional talent', 'wippler observed that it was very apparent that he had exceptional talent', 'wipler observed that it was very apparent that he had exceptional talent']
+Named-Entities: wippler
+<output>
+Corrected: wippler observed that it was very apparent that he had exceptional talent
+
+
+<input>
+5-best: ['bike along hastings street is the co op supermarket as well as the courthouse', 'bike along hastings street is the co op supermarket as well as the courthouse', 'bike along hastings street is the co op supermarket as well as the courthouse', 'bike along hastings street is the co op supermarket as well as the courthouse', 'bike along hastings street is the co op supermarket as well as the courthouse']
+Named-Entities: hastings street, co op supermarket, court house
+<output>
+Corrected: back along hastings street is the co op supermarket as well as the court house
+
+
+<input>
+5-best: ['in spite of their absurdity the world affected philip curiously', 'in spite of their absurdity the world affected philip curiously', 'in spite of their absurdity the world affected the nit curiously', 'in spite of their absurdity the world affected the nit curiously', 'in spite of their absurdity the world affected philip curiously']
+Named-Entities: the words, philip
+<output>
+Corrected: in spite of their absurdity the words affected philip curiously
+
+
+<input>
+5-best: ['in sophocles tragedy antigone pauline is story continues after his death', 'in sophocles tragedy antigone pauline is story continues after his death', 'in sophocles tragedy antigone polinae is story continues after his death', 'in sophocles tragedy antigone pauline is story continues after his death', 'in sophocles tragedy antigone polinae is story continues after his death']
+Named-Entities: sophocles, antigone
+<output>
+Corrected: in sophocles tragedy antigone polynices story continues after his death
+
+
+<input>
+5-best: ['the floor is january eleven with some areas of irregularity to the south', 'the floor is january eleven with some areas of irregularity to the south', 'the floor is generally level with some areas of irregularity to the south', 'the floor is january eleven with some areas of irregularity to the south', 'the floor is generally level with some areas of irregularity to the south']
+Named-Entities: the floor, generally level
+<output>
+Corrected: the floor is generally level with some areas of irregularity to the south
+
+
+<input>
+5-best: ['lamb blogs regularly on huffington post', 'lamb blogs regularly on huffington post', 'lamb blogs regularly on huffington post', 'lamb blogs regularly on huffington post', 'lamb blogs regularly on huffington post']
+Named-Entities: lam, huffington post
+<output>
+Corrected: lam blogs regularly on huffington post
+
+
+<input>
+5-best: ['but no more than that bk surpasses him by a long way', 'but no more than that bk surpasses him by a long way', 'but no more than that bk surpasses him by a long way', 'but no more than that bk surpasses him by a long way', 'but no more than that bk surpasses him by a long way']
+Named-Entities: beecke
+<output>
+Corrected: but no more than that beecke surpasses him by a long way
+
+
+<input>
+5-best: ['capaldi begins to form an attachment to smith', 'capelti begins to form an attachment to smith', 'kapauty begins to form an attachment to smith', 'kapelti begins to form an attachment to smith', 'capete begins to form an attachment to smith']
+Named-Entities: capote, smith
+<output>
+Corrected: capote begins to form an attachment to smith
+
+
+<input>
+5-best: ['the spin off company was named paperlinks', 'the spin off company was named paperlinks', 'the spin off company was named paperlinks', 'the spin off company was named paperlinks', 'the spin off company was named paperlinks']
+Named-Entities: paperlinx
+<output>
+Corrected: the spin off company was named paperlinx

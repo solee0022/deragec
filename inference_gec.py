@@ -16,7 +16,7 @@ parser.add_argument('-d', '--data_type', type=str, default="cv",
 args = parser.parse_args()
 
 class Config():
-    method: str = args.method # GEC|RAGEC|DeRAGEC
+    method: str = args.method # GEC|RAGEC|RAGEC+MCQ|RAGEC+MCQ+PS+Def|DeRAGEC
     data_type: str = args.data_type # cv|stop
     model_id: str = "hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4" # hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4|gpt-4o-mini-2024-07-18
     asr_model: str = "whisper-turbo"
@@ -61,6 +61,8 @@ def main(
     ## datapoint
     if cfg.method == "DeRAGEC":
         datapoint = load_data_from_json(f"output/{cfg.data_type}_examples_{cfg.method}_filtered_{model_type}.jsonl")[0]
+    elif "MCQ" in cfg.method:
+        datapoint = load_data_from_json(f"output/{cfg.data_type}_examples_{cfg.method}_filtered_{model_type}.jsonl")[0]
     else:
         datapoint = load_data_from_json(f"examples/{cfg.data_type}_examples.jsonl")[0]
         
@@ -91,6 +93,8 @@ def main(
         response = client.chat.completions.create(
             model=model_type,  # or another model, e.g., "gpt-4" if you have access
             messages=prompt,
+            temperature=cfg.temperature,
+            max_tokens=cfg.max_new_tokens,
         )
         assistant_response = response.choices[0].message.content
     
@@ -130,12 +134,21 @@ def format_prompt(template, datapoint, method):
                     neighbors.extend(list(datapoint['retr-NE'][q][0].keys()))
             ## ========================================
             
+        if "MCQ" in method:
+            ## ==== Retrieval Augmented Named Entities ====
+            neighbors = []
+            if datapoint['retr-NE']:
+                for i, q in enumerate(datapoint["p-query"]):
+                    filtere_ne = datapoint['filtered-NE'][q]
+                    neighbors.append(filtere_ne)
+            neighbors = ", ".join(neighbors)
+            ## ========================================
+            
         elif method == "DeRAGEC":
             ## ==== Retrieval Augmented Named Entities ====
             neighbors = ""
             if datapoint['retr-NE']:
                 for i, q in enumerate(datapoint["p-query"]):
-                    # neighbors.extend(list(sample['retr-NE'][q][0].keys()))
                     filtere_ne = datapoint['filtered-NE'][q]
                     r_ne = datapoint['r-NE'][q]
                     neighbors += f"{filtere_ne}, {r_ne}\n"

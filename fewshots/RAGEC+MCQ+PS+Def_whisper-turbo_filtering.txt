@@ -1,169 +1,21 @@
 <input>
-Cloze sentence: [BLANK] shared the patent for the case extracting system with gallant
-Options: A: somerville (1.00 | Somerville may refer to: .Somerville ( SUM-ər-vil) is a city located directly to the northwest of Boston, and north of)
-B: Somerville (0.75 | Somerville may refer to: .Somerville ( SUM-ər-vil) is a city located directly to the northwest of Boston, and north of)
-C: Summersville (0.75 | Summersville may refer to a place in the United States: Summersville, Kentucky Summersville, Missouri Summersville, West Virginia .Summersville is a)
-D: Somervell (0.75 | Somervell may refer to: .Alexander Somervell (1796 – 1854) was an American soldier, and leader of the Somervell Expedition. He)
-E: Summerhill (0.75 | Summerhill or Summer Hill may refer to the following places: .Summerhill School is an independent (i.e. fee-charging) day and boarding)
-F: Sommerville (0.78 | Sommerville may refer to: .James Sommerville is a Canadian orchestral hornist and conductor. He was the principal hornist for the)
-G: sommerville (0.88 | Sommerville may refer to: .James Sommerville is a Canadian orchestral hornist and conductor. He was the principal hornist for the)
-H: Summer Hill (0.88 | Summerhill or Summer Hill may refer to the following places: .Summer Hill is a suburb of Sydney, in the state)
-I: Merville (0.88 | Merville may refer to: .Merville, officially Barangay Merville, is a barangay in Parañaque. It is one of Parañaque's 16 barangays)
-J: Summerlin (0.88 | Summerlin is a community in the Las Vegas Valley of Southern Nevada. It lies at the edge of the Spring)
-K: Upperville (0.89 | Upperville may refer to: Upperville, Virginia, a city in Virginia The Battle of Upperville, an American Civil War battle Upperville)
-L: Summerall (1.00 | Summerall is a surname. Notable people with the surname include: Charles Pelot Summerall (1867–1955), United States Army general The Summerall)
+Cloze sentence: but no more than that [BLANK] surpasses him by a long way
+Options: A: bk (1.00 | bk)
+B: BC (0.50 | BC most often refers to: Before Christ, a calendar era based on the traditionally reckoned year of the birth of)
+C: beecke (0.67 | beecke)
+D: Bukay (0.67 | David Bukay is a Professor of Middle East Studies at the University of Haifa. He is the author of Islamic)
+E: Bek (0.67 | Bek or BEK may refer to: .Khagan Bek is the title used by the bek (generalissimo) of the Khazars. .Beck)
+F: back (0.67 | The human back, also called the dorsum (pl.: dorsa), is the large posterior area of the human body, rising from)
+G: Book (0.67 | A book is an object recording information in the form of printed writing or images. Modern books are typically in)
+H: Buck (0.67 | Buck may refer to: .Buck buck (also known as Johnny-on-a-Pony, or Johnny-on-the-Pony) is a children's game with several variants. One)
+I: beack (0.67 | Julia Hart (born November 8, 2001) is an American professional wrestler and former cheerleader. She is signed to All Elite)
+J: Bock (0.67 | Bock (German: [bɔk] ) is a strong German beer, usually a dark lager. .Bock is a surname. Notable people with)
+K: Balk (0.67 | In baseball, a balk is a set of illegal motions or actions that a pitcher may make. Most of these)
+L: Block (1.00 | Block or blocked may refer to: .The Block may refer to: .Blocking may refer to: .The General Dynamics F-16 Fighting)
 
 <output>
-Answer: G: sommerville
+Answer: C: beecke
 
-
-<input>
-Cloze sentence: somerville shared the patent for the case extracting system with [BLANK]
-Options: A: gallant (1.00 | Gallant may refer to: Gallant (singer) (born 1991), American singer and songwriter Gallant (surname), people with the surname Gallant, Alabama,)
-B: galand (0.67 | galand)
-C: Gallant (0.67 | Gallant may refer to: Gallant (singer) (born 1991), American singer and songwriter Gallant (surname), people with the surname Gallant, Alabama,)
-D: talent (0.67 | Talent has two principal meanings: Talent (measurement), an ancient unit of mass and value Aptitude or talent, a group of)
-E: Galland (0.71 | Adolf Josef Ferdinand Galland (19 March 1912 – 9 February 1996) was a German Luftwaffe general and flying ace who)
-F: Gallieni (0.71 | Joseph Simon Gallieni (24 April 1849 – 27 May 1916) was a French military officer, active for most of his)
-G: Valiant (0.71 | Valiant may refer to: .Seven vessels of the British Royal Navy have been named HMS Valiant. HMS Valiant (1755), a)
-H: gangland (0.71 | Gangland or Gang Land may refer to: Organized crime, relating to, or carried out by organized criminals Gangland (video game),)
-I: talents (0.71 | Talent has two principal meanings: Talent (measurement), an ancient unit of mass and value Aptitude or talent, a group of)
-J: Golant (0.83 | Golant (Cornish: Golnans) is a village in south Cornwall, England, United Kingdom. It is on the west bank of the)
-K: Galleani (0.83 | Luigi Galleani (Italian: [luˈiːdʒi ɡalleˈaːni]; 12 August 1861 – 4 November 1931) was an Italian insurrectionary anarchist best known for)
-L: Galman (1.00 | Benigno "Ninoy" Aquino Jr., a former Philippine senator, was assassinated on Sunday, August 21, 1983, on the apron of Manila)
-
-<output>
-Answer: B: galand
-
-
-<input>
-Cloze sentence: [BLANK] observed that it was very apparent that he had exceptional talent
-Options: A: vipler (1.00 | The 2017 Puerto Rico Leptospirosis outbreak was an outbreak of leptospirosis that affected Puerto Rico in the fall of 2017,)
-B: wipler (0.83 | Przemysław Janusz Wipler (born 15 July 1978) is a Polish politician, teacher, civil servant, and former president of the KoLiber)
-C: wippler (0.83 | Migene González-Wippler is a Puerto Rican new-age author and a leading expert on the Afro-Caribbean religion of Santería. .Wippler is)
-D: Wippler (0.83 | Migene González-Wippler is a Puerto Rican new-age author and a leading expert on the Afro-Caribbean religion of Santería. .Wippler is)
-E: Villar (0.83 | Villar may refer to: .Robert "Buboy" Tamayo Villar, Jr. (born March 21, 1998) is a Filipino actor, comedian, host and)
-F: dipelor (0.71 | )
-G: Killer (0.67 | A killer is someone or something that kills, such as a murderer or a serial killer. Killer may also refer)
-H: Schiller (0.67 | Johann Christoph Friedrich von Schiller (German: [ˈjoːhan ˈkʁɪstɔf ˈfʁiːdʁɪç fɔn ˈʃɪlɐ], short: [ˈfʁiːdʁɪç ˈʃɪlɐ] ; 10 November 1759 – 9)
-I: Imler (0.67 | Erik Bradley Imler (born June 1, 1971, in Silver Spring, Maryland) is an American soccer coach and former player. He)
-J: Poplar (0.67 | Poplar may refer to: .Populus is a genus of 25–30 species of deciduous flowering plants in the family Salicaceae, native)
-K: Vizier (0.67 | A vizier (; Arabic: وزير, romanized: wazīr; Persian: وزیر, romanized: vazīr) is a high-ranking political advisor or minister in the)
-L: Sizzler (0.67 | Sizzler USA Restaurants, Inc., doing business as Sizzler, is a United States–based restaurant chain with headquarters in Mission Viejo, California,)
-M: Valor (0.67 | Valor, valour, or valorous may mean: Courage, a similar meaning Virtue ethics, roughly "courage in defense of a noble cause")
-
-<output>
-Answer: C: wippler
-
-
-<input>
-Cloze sentence: bike along [BLANK] is the co op supermarket as well as the courthouse
-Options: A: hastings street (1.00 | hastings street)
-B: Hastings Street (1.00 | Hastings Street may refer to: Hastings Street (Vancouver), an east–west traffic corridor in Vancouver and Burnaby, British Columbia, Canada Hastings)
-C: Hastings city (0.79 | Hastings is a city in and the county seat of Adams County, Nebraska, United States. The population was 25,152 at)
-D: Hastings team (0.79 | Hastings team)
-E: Hayes Street (0.71 | This is a list of streets in San Francisco, California. They are grouped by type: arterial thoroughfares, commercial corridors, and)
-F: Basinghall Street (0.71 | Basinghall Street (sometimes written as "Bassinghall") is a street in the City of London, England. It lies chiefly in the)
-G: neighbouring street (0.71 | The Battle of Cable Street was a series of clashes that took place at several locations in the East End)
-H: Halsted Street (0.71 | Halsted Street is a major north-south street in the U.S. city of Chicago, Illinois. .Lakeview (also Lake View) is one)
-I: Hastings Park (0.71 | Hastings Park is a municipal park located in the northeast sector of Vancouver, British Columbia, Canada, in the Hastings-Sunrise neighbourhood.)
-J: Hastings County (0.67 | Hastings County is a county and census division of the Canadian province of Ontario. Geographically, it is located on the)
-K: Mason Street (0.64 | The San Francisco cable car system is the world's last manually operated cable car system and an icon of the)
-
-<output>
-Answer: A: hastings street
-
-
-<input>
-Cloze sentence: bike along hastings street is the [BLANK] as well as the courthouse
-Options: A: co op supermarket (1.00 | co op supermarket)
-B: Co-op supermarket (0.94 | A consumers' co-operative is an enterprise owned by consumers and managed democratically and that aims at fulfilling the needs and)
-C: Coles Supermarket (0.83 | Coles Supermarkets Australia Pty. Ltd., doing business as Coles, is an Australian supermarket, retail and consumer services chain, headquartered in)
-D: local supermarket (0.78 | As of November 2024, there are 17 supermarket chains currently operating in the United Kingdom. The food retail market has)
-E: Dover Supermarket (0.78 | The common sole, Dover sole, or black sole (Solea solea) is a species of flatfish in the family Soleidae. It)
-F: local supermarkets (0.74 | As of November 2024, there are 17 supermarket chains currently operating in the United Kingdom. The food retail market has)
-G: Co-operative supermarket (0.71 | Co-op is a UK supermarket chain and the brand used for the food retail business of The Co-operative Group, one)
-H: Red Owl supermarket (0.68 | Red Owl was a grocery store chain in the United States, headquartered in Hopkins, Minnesota. Founded in 1922, it was)
-I: Swiss supermarkets (0.67 | This is a list of supermarket chains in Switzerland. .Denner is a discount supermarket chain in Switzerland. It is Switzerland's)
-J: nearby supermarket (0.67 | Supermarket Stakeout is an American cooking reality competition television series that airs on Food Network. It is presented by Iron)
-K: Tesco supermarket (0.67 | Tesco plc () is a British multinational groceries and general merchandise retailer headquartered in the United Kingdom at its head)
-
-<output>
-Answer: A: co op supermarket
-
-
-<input>
-Cloze sentence: bike along hastings street is the co op supermarket as well as the [BLANK]
-Options: A: courthouse (1.00 | A courthouse or court house is a structure which houses judicial functions for a governmental entity such as a state,)
-B: Court House (0.73 | The Battle of Appomattox Court House, fought in Appomattox County, Virginia, on the morning of April 9, 1865, was one)
-C: core house (0.75 | The Downtown Core is the historical and downtown centre of the city-state of Singapore and the main commercial area in)
-D: Courthouses (0.75 | A courthouse or court house is a structure which houses judicial functions for a governmental entity such as a state,)
-E: port house (0.75 | Port wine (Portuguese: vinho do Porto, Portuguese: [ˈviɲu ðu ˈpoɾtu]; lit. 'wine of Porto'), or simply port, is a Portuguese)
-F: Lofthouse (0.78 | Lofthouse may refer to: .Nathaniel Lofthouse (27 August 1925 – 15 January 2011) was an English professional footballer who played)
-G: your house (0.80 | Jagged Little Pill is the third studio album by Canadian-American singer Alanis Morissette, released by Maverick on June 13, 1995.)
-H: Morehouse (0.88 | Morehouse College is a private, historically black, men's liberal arts college in Atlanta, Georgia, United States. Anchored by its main)
-I: court house (0.89 | court house)
-J: The Courthouse (0.89 | A courthouse or court house is a structure which houses judicial functions for a governmental entity such as a state,)
-K: new courthouse (1.00 | A courthouse or court house is a structure which houses judicial functions for a governmental entity such as a state,)
-
-<output>
-Answer: I: court house
-
-
-<input>
-Cloze sentence: in spite of their absurdity [BLANK] affected philip curiously
-Options: A: the world (1.00 | The world is the totality of entities, the whole of reality, or everything that exists. The nature of the world)
-B: the words (0.75 | the words)
-C: The world (0.75 | The world is the totality of entities, the whole of reality, or everything that exists. The nature of the world)
-D: The earl (0.75 | Earl () is a rank of the nobility in the United Kingdom. In modern Britain, an earl is a member)
-E: The Work (0.75 | The Work may refer to: .Work may refer to: Work (human activity), intentional activity people perform to support themselves, others,)
-F: The Earls (0.75 | The Earls, often credited as Larry Chance and the Earls, is an American popular music group formed in The Bronx,)
-G: Sea World (0.75 | Sea World, Seaworld, SeaWorld may mean: Sea World (Australia), a marine theme park in Main Beach, Gold Coast, Australia Sea)
-H: The girl (0.75 | A girl is a young female human. Girl or The Girl may also refer to: .A girl is a young)
-I: The Third (0.75 | The Third (Japanese: ザ・サード, Hepburn: Za Sādo) is a light novel series, that has also been made into manga and)
-J: McWorld (0.75 | McWorld is a term referring to the spread of McDonald's restaurants throughout the world as the result of globalization, and)
-K: The Wirral (0.75 | The Wirral Peninsula (), known locally as the Wirral, is a peninsula in North West England. The roughly rectangular peninsula)
-L: The Herd (1.00 | The Herd may refer to: .A herd is a social group of certain animals of the same species, either wild)
-
-<output>
-Answer: B: the words
-
-
-<input>
-Cloze sentence: in spite of their absurdity the world affected [BLANK] curiously
-Options: A: philip (1.00 | Philip, also Phillip, is a male name derived from the Greek Φιλιππος (Philippos, lit. "horse-loving" or "fond of horses"), from)
-B: the nit (0.00 | The National Invitation Tournament (NIT) is an annual men's college basketball tournament operated by the National Collegiate Athletic Association (NCAA).)
-C: Phillippe (1.00 | Matthew Ryan Phillippe ( FIL-ip-ee; born September 10, 1974) is an American actor. After appearing as Billy Douglas on the)
-D: Philips (0.83 | Koninklijke Philips N.V. (lit. 'Royal Philips'), commonly shortened to Philips, is a Dutch multinational conglomerate corporation that was founded in)
-E: Filan (0.80 | Shane Steven Filan (born 5 July 1979) is an Irish singer best known as a member of the pop vocal)
-F: Phylace (0.80 | Phylace or Phylake (Φυλακή, Phylake; plural: Φυλακαί Phylakai - lit. "prison") may refer to: Phylace (Arcadia), an ancient Greek city)
-G: Filip (0.80 | Filip (Cyrillic: Филип) is a masculine given name and a surname, cognate to Philip. The male name Filip comes from)
-H: Philp (0.80 | Philp is a surname, and may refer to: Chris Philp (born 1976), British entrepreneur and Conservative Party politician Douglas Philp)
-I: Phelim (0.80 | Féilim or Feidhlim, is an Irish language masculine given name. The name is derived from the older form Feidhlimidh (Old)
-J: Billopp (0.80 | Christopher Billopp or Billop (c. 1650 – 1725) was an English officer of the Royal Navy in the seventeenth century)
-K: Philippine (0.71 | The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia. In the western Pacific Ocean,)
-L: Philopon (0.71 | John Philoponus (Greek: ; Ἰωάννης ὁ Φιλόπονος, Ioánnis o Philóponos; c. 490 – c. 570), also known as John the)
-
-<output>
-Answer: A: philip
-
-
-<input>
-Cloze sentence: in [BLANK] tragedy antigone pauline is story continues after his death
-Options: A: sophocles (1.00 | Sophocles (c. 497/496 – winter 406/405 BC) was an ancient Greek tragedian known as one of three from whom at)
-B: Sophocles (1.00 | Sophocles (c. 497/496 – winter 406/405 BC) was an ancient Greek tragedian known as one of three from whom at)
-C: Paso Robles (0.62 | Paso Robles ( PASS-ə ROH-bəlz), officially El Paso de Robles (Spanish for The Pass of Oaks), is a city in)
-D: Xenocles (0.60 | Xenocles (Ancient Greek: Ξενοκλῆς) was an ancient Greek tragedian. He won a victory at the Dionysia in 415 BC with)
-E: Sohonet (0.60 | Sohonet is a community-of-interest network for the television, film and media production community based in the Soho area of London.)
-F: Eteocles (0.60 | In Greek mythology, Eteocles (; Ancient Greek: Ἐτεοκλῆς) was a king of Thebes, the son of Oedipus and either Jocasta)
-G: Domokos (0.60 | Domokos (Greek: Δομοκός), the ancient Thaumacus or Thaumace (Θαυμακός, Θαυμάκη), is a town and a municipality in Phthiotis, Greece. The)
-H: Phokas (0.60 | Phocas (Latin: Focas; Ancient Greek: Φωκάς, romanized: Phōkás; 547 – 5 October 610) was Byzantine emperor from 602 to 610.)
-I: opoles (0.60 | Opole (Polish: [ɔˈpɔlɛ] ; Silesian: Ôpole; Silesian German: Uppeln) is a city located in southern Poland on the Oder River)
-J: Ozols (0.60 | Ozols (masculine; old orthography: O(h)sol), feminine: Ozola is a Latvian surname, derived from the Latvian word for "oak". Individuals with)
-K: Go-Local (0.60 | The following is a list of films and other media in which Mickey Mouse has appeared, only featuring projects either)
-
-<output>
-Answer: A: sophocles
 
 
 <input>
@@ -186,21 +38,182 @@ M: Anthony Hall (0.62 | Anthony Michael Hall (born Michael Anthony Thomas Charle
 Answer: C: antigone
 
 
+
 <input>
-Cloze sentence: [BLANK] is january eleven with some areas of irregularity to the south
-Options: A: the floor (1.00 | A floor is the bottom surface of a room or vehicle. Floor may also refer to: ."On the Floor" is)
-B: the four (0.86 | The Four may refer to: Glasgow Four, the four prominent leaders of the Glasgow School Four (comics), a group of)
-C: The fjord (0.75 | In physical geography, a fjord (also spelled fiord in New Zealand English; ) is a long, narrow sea inlet with)
-D: The fiord (0.75 | In physical geography, a fjord (also spelled fiord in New Zealand English; ) is a long, narrow sea inlet with)
-E: The Nore (0.71 | The Nore is a long bank of sand and silt running along the south-centre of the final narrowing of the)
-F: The Fly (0.71 | The Fly may refer to: .Flies are insects of the order Diptera, the name being derived from the Greek δι-)
-G: The store (0.71 | The Store may refer to: The Store (Bluffton, South Carolina), United States, a historic building The Store (novel), a 1932)
-H: The corps (0.71 | Corps (; plural corps ; from French corps, from the Latin corpus "body") is a term used for several different)
-I: The Laune (0.71 | Paul Sidney Laune (1899 in Woodward, Oklahoma – 1977) was a writer, painter and illustrator, known for his book covers)
-J: The Fall (0.71 | The Fall may refer to: The fall of man in Abrahamic religions .After the Fall may refer to: .Fall is)
+Cloze sentence: somerville shared the patent for the case extracting system with [BLANK]
+Options: A: gallant (1.00 | Gallant may refer to: Gallant (singer) (born 1991), American singer and songwriter Gallant (surname), people with the surname Gallant, Alabama,)
+B: galand (0.67 | galand)
+C: Gallant (0.67 | Gallant may refer to: Gallant (singer) (born 1991), American singer and songwriter Gallant (surname), people with the surname Gallant, Alabama,)
+D: talent (0.67 | Talent has two principal meanings: Talent (measurement), an ancient unit of mass and value Aptitude or talent, a group of)
+E: Galland (0.71 | Adolf Josef Ferdinand Galland (19 March 1912 – 9 February 1996) was a German Luftwaffe general and flying ace who)
+F: Gallieni (0.71 | Joseph Simon Gallieni (24 April 1849 – 27 May 1916) was a French military officer, active for most of his)
+G: Valiant (0.71 | Valiant may refer to: .Seven vessels of the British Royal Navy have been named HMS Valiant. HMS Valiant (1755), a)
+H: gangland (0.71 | Gangland or Gang Land may refer to: Organized crime, relating to, or carried out by organized criminals Gangland (video game),)
+I: talents (0.71 | Talent has two principal meanings: Talent (measurement), an ancient unit of mass and value Aptitude or talent, a group of)
+J: Golant (0.83 | Golant (Cornish: Golnans) is a village in south Cornwall, England, United Kingdom. It is on the west bank of the)
+K: Galleani (0.83 | Luigi Galleani (Italian: [luˈiːdʒi ɡalleˈaːni]; 12 August 1861 – 4 November 1931) was an Italian insurrectionary anarchist best known for)
+L: Galman (1.00 | Benigno "Ninoy" Aquino Jr., a former Philippine senator, was assassinated on Sunday, August 21, 1983, on the apron of Manila)
 
 <output>
-Answer: A: the floor
+Answer: B: galand
+
+
+
+<input>
+Cloze sentence: [BLANK] observed that it was very apparent that he had exceptional talent
+Options: A: vipler (1.00 | The 2017 Puerto Rico Leptospirosis outbreak was an outbreak of leptospirosis that affected Puerto Rico in the fall of 2017,)
+B: wipler (0.83 | Przemysław Janusz Wipler (born 15 July 1978) is a Polish politician, teacher, civil servant, and former president of the KoLiber)
+C: wippler (0.83 | Migene González-Wippler is a Puerto Rican new-age author and a leading expert on the Afro-Caribbean religion of Santería. .Wippler is)
+D: Wippler (0.83 | Migene González-Wippler is a Puerto Rican new-age author and a leading expert on the Afro-Caribbean religion of Santería. .Wippler is)
+E: Villar (0.83 | Villar may refer to: .Robert "Buboy" Tamayo Villar, Jr. (born March 21, 1998) is a Filipino actor, comedian, host and)
+F: dipelor (0.71 | )
+G: Killer (0.67 | A killer is someone or something that kills, such as a murderer or a serial killer. Killer may also refer)
+H: Schiller (0.67 | Johann Christoph Friedrich von Schiller (German: [ˈjoːhan ˈkʁɪstɔf ˈfʁiːdʁɪç fɔn ˈʃɪlɐ], short: [ˈfʁiːdʁɪç ˈʃɪlɐ] ; 10 November 1759 – 9)
+I: Imler (0.67 | Erik Bradley Imler (born June 1, 1971, in Silver Spring, Maryland) is an American soccer coach and former player. He)
+J: Poplar (0.67 | Poplar may refer to: .Populus is a genus of 25–30 species of deciduous flowering plants in the family Salicaceae, native)
+K: Vizier (0.67 | A vizier (; Arabic: وزير, romanized: wazīr; Persian: وزیر, romanized: vazīr) is a high-ranking political advisor or minister in the)
+L: Sizzler (0.67 | Sizzler USA Restaurants, Inc., doing business as Sizzler, is a United States–based restaurant chain with headquarters in Mission Viejo, California,)
+M: Valor (0.67 | Valor, valour, or valorous may mean: Courage, a similar meaning Virtue ethics, roughly "courage in defense of a noble cause")
+
+<output>
+Answer: C: wippler
+
+
+
+<input>
+Cloze sentence: bike along [BLANK] is the co op supermarket as well as the courthouse
+Options: A: hastings street (1.00 | hastings street)
+B: Hastings Street (1.00 | Hastings Street may refer to: Hastings Street (Vancouver), an east–west traffic corridor in Vancouver and Burnaby, British Columbia, Canada Hastings)
+C: Hastings city (0.79 | Hastings is a city in and the county seat of Adams County, Nebraska, United States. The population was 25,152 at)
+D: Hastings team (0.79 | Hastings team)
+E: Hayes Street (0.71 | This is a list of streets in San Francisco, California. They are grouped by type: arterial thoroughfares, commercial corridors, and)
+F: Basinghall Street (0.71 | Basinghall Street (sometimes written as "Bassinghall") is a street in the City of London, England. It lies chiefly in the)
+G: neighbouring street (0.71 | The Battle of Cable Street was a series of clashes that took place at several locations in the East End)
+H: Halsted Street (0.71 | Halsted Street is a major north-south street in the U.S. city of Chicago, Illinois. .Lakeview (also Lake View) is one)
+I: Hastings Park (0.71 | Hastings Park is a municipal park located in the northeast sector of Vancouver, British Columbia, Canada, in the Hastings-Sunrise neighbourhood.)
+J: Hastings County (0.67 | Hastings County is a county and census division of the Canadian province of Ontario. Geographically, it is located on the)
+K: Mason Street (0.64 | The San Francisco cable car system is the world's last manually operated cable car system and an icon of the)
+
+<output>
+Answer: A: hastings street
+
+
+
+<input>
+Cloze sentence: the spin off company was named [BLANK]
+Options: A: paperlinks (1.00 | Rupert Fawcett is a British cartoonist and writer, who is best known for his critically acclaimed comic strips, Fred (produced)
+B: papermill (0.55 | A paper mill is a factory devoted to making paper from vegetable fibres such as wood pulp, old rags, and)
+C: Kamerling (0.55 | Anthonie Willem Constantijn Gneomar "Antonie" Kamerling (Dutch pronunciation: [ˈɑntoːni ˈkaːmərlɪŋ]; 25 August 1966 – 6 October 2010) was a Dutch)
+D: paper-hanger (0.55 | Paper hanger may refer to: A tradesman who applies wallpaper to a wall Cheque fraud, the unlawful use of cheques)
+E: Cypherpunks (0.55 | A cypherpunk is one who advocates the widespread use of strong cryptography and privacy-enhancing technologies as a means of effecting)
+F: Syrinx (0.55 | Syrinx)
+G: matrix (0.55 | Matrix (pl.: matrices or matrixes) or MATRIX may refer to: .The Matrix is a 1999 science fiction action film written)
+H: Teerlinc (0.55 | Levina Teerlinc (1510s – 23 June 1576) was a Flemish Renaissance miniaturist who served as a painter to the English)
+I: Haterius (0.58 | Quintus Haterius Antoninus or known as Antoninus was a Roman senator, who was active during the reign of Claudius and)
+J: Papertown (0.64 | Phantom settlements, or paper towns, are settlements that appear on maps but do not actually exist. They are either accidents)
+K: phalanx (0.64 | The phalanx (pl.: phalanxes or phalanges) was a rectangular mass military formation, usually composed entirely of heavy infantry armed with)
+L: paperlinx (1.00 | paperlinx)
+
+<output>
+Answer: L: paperlinx
+
+
+
+<input>
+Cloze sentence: bike along hastings street is the [BLANK] as well as the courthouse
+Options: A: co op supermarket (1.00 | co op supermarket)
+B: Co-op supermarket (0.94 | A consumers' co-operative is an enterprise owned by consumers and managed democratically and that aims at fulfilling the needs and)
+C: Coles Supermarket (0.83 | Coles Supermarkets Australia Pty. Ltd., doing business as Coles, is an Australian supermarket, retail and consumer services chain, headquartered in)
+D: local supermarket (0.78 | As of November 2024, there are 17 supermarket chains currently operating in the United Kingdom. The food retail market has)
+E: Dover Supermarket (0.78 | The common sole, Dover sole, or black sole (Solea solea) is a species of flatfish in the family Soleidae. It)
+F: local supermarkets (0.74 | As of November 2024, there are 17 supermarket chains currently operating in the United Kingdom. The food retail market has)
+G: Co-operative supermarket (0.71 | Co-op is a UK supermarket chain and the brand used for the food retail business of The Co-operative Group, one)
+H: Red Owl supermarket (0.68 | Red Owl was a grocery store chain in the United States, headquartered in Hopkins, Minnesota. Founded in 1922, it was)
+I: Swiss supermarkets (0.67 | This is a list of supermarket chains in Switzerland. .Denner is a discount supermarket chain in Switzerland. It is Switzerland's)
+J: nearby supermarket (0.67 | Supermarket Stakeout is an American cooking reality competition television series that airs on Food Network. It is presented by Iron)
+K: Tesco supermarket (0.67 | Tesco plc () is a British multinational groceries and general merchandise retailer headquartered in the United Kingdom at its head)
+
+<output>
+Answer: A: co op supermarket
+
+
+
+<input>
+Cloze sentence: bike along hastings street is the co op supermarket as well as the [BLANK]
+Options: A: courthouse (1.00 | A courthouse or court house is a structure which houses judicial functions for a governmental entity such as a state,)
+B: Court House (0.73 | The Battle of Appomattox Court House, fought in Appomattox County, Virginia, on the morning of April 9, 1865, was one)
+C: core house (0.75 | The Downtown Core is the historical and downtown centre of the city-state of Singapore and the main commercial area in)
+D: Courthouses (0.75 | A courthouse or court house is a structure which houses judicial functions for a governmental entity such as a state,)
+E: port house (0.75 | Port wine (Portuguese: vinho do Porto, Portuguese: [ˈviɲu ðu ˈpoɾtu]; lit. 'wine of Porto'), or simply port, is a Portuguese)
+F: Lofthouse (0.78 | Lofthouse may refer to: .Nathaniel Lofthouse (27 August 1925 – 15 January 2011) was an English professional footballer who played)
+G: your house (0.80 | Jagged Little Pill is the third studio album by Canadian-American singer Alanis Morissette, released by Maverick on June 13, 1995.)
+H: Morehouse (0.88 | Morehouse College is a private, historically black, men's liberal arts college in Atlanta, Georgia, United States. Anchored by its main)
+I: court house (0.89 | court house)
+J: The Courthouse (0.89 | A courthouse or court house is a structure which houses judicial functions for a governmental entity such as a state,)
+K: new courthouse (1.00 | A courthouse or court house is a structure which houses judicial functions for a governmental entity such as a state,)
+
+<output>
+Answer: I: court house
+
+
+
+<input>
+Cloze sentence: [BLANK] shared the patent for the case extracting system with gallant
+Options: A: somerville (1.00 | Somerville may refer to: .Somerville ( SUM-ər-vil) is a city located directly to the northwest of Boston, and north of)
+B: Somerville (0.75 | Somerville may refer to: .Somerville ( SUM-ər-vil) is a city located directly to the northwest of Boston, and north of)
+C: Summersville (0.75 | Summersville may refer to a place in the United States: Summersville, Kentucky Summersville, Missouri Summersville, West Virginia .Summersville is a)
+D: Somervell (0.75 | Somervell may refer to: .Alexander Somervell (1796 – 1854) was an American soldier, and leader of the Somervell Expedition. He)
+E: Summerhill (0.75 | Summerhill or Summer Hill may refer to the following places: .Summerhill School is an independent (i.e. fee-charging) day and boarding)
+F: Sommerville (0.78 | Sommerville may refer to: .James Sommerville is a Canadian orchestral hornist and conductor. He was the principal hornist for the)
+G: sommerville (0.88 | Sommerville may refer to: .James Sommerville is a Canadian orchestral hornist and conductor. He was the principal hornist for the)
+H: Summer Hill (0.88 | Summerhill or Summer Hill may refer to the following places: .Summer Hill is a suburb of Sydney, in the state)
+I: Merville (0.88 | Merville may refer to: .Merville, officially Barangay Merville, is a barangay in Parañaque. It is one of Parañaque's 16 barangays)
+J: Summerlin (0.88 | Summerlin is a community in the Las Vegas Valley of Southern Nevada. It lies at the edge of the Spring)
+K: Upperville (0.89 | Upperville may refer to: Upperville, Virginia, a city in Virginia The Battle of Upperville, an American Civil War battle Upperville)
+L: Summerall (1.00 | Summerall is a surname. Notable people with the surname include: Charles Pelot Summerall (1867–1955), United States Army general The Summerall)
+
+<output>
+Answer: G: sommerville
+
+
+
+<input>
+Cloze sentence: in spite of their absurdity the world affected [BLANK] curiously
+Options: A: philip (1.00 | Philip, also Phillip, is a male name derived from the Greek Φιλιππος (Philippos, lit. "horse-loving" or "fond of horses"), from)
+B: the nit (0.00 | The National Invitation Tournament (NIT) is an annual men's college basketball tournament operated by the National Collegiate Athletic Association (NCAA).)
+C: Phillippe (1.00 | Matthew Ryan Phillippe ( FIL-ip-ee; born September 10, 1974) is an American actor. After appearing as Billy Douglas on the)
+D: Philips (0.83 | Koninklijke Philips N.V. (lit. 'Royal Philips'), commonly shortened to Philips, is a Dutch multinational conglomerate corporation that was founded in)
+E: Filan (0.80 | Shane Steven Filan (born 5 July 1979) is an Irish singer best known as a member of the pop vocal)
+F: Phylace (0.80 | Phylace or Phylake (Φυλακή, Phylake; plural: Φυλακαί Phylakai - lit. "prison") may refer to: Phylace (Arcadia), an ancient Greek city)
+G: Filip (0.80 | Filip (Cyrillic: Филип) is a masculine given name and a surname, cognate to Philip. The male name Filip comes from)
+H: Philp (0.80 | Philp is a surname, and may refer to: Chris Philp (born 1976), British entrepreneur and Conservative Party politician Douglas Philp)
+I: Phelim (0.80 | Féilim or Feidhlim, is an Irish language masculine given name. The name is derived from the older form Feidhlimidh (Old)
+J: Billopp (0.80 | Christopher Billopp or Billop (c. 1650 – 1725) was an English officer of the Royal Navy in the seventeenth century)
+K: Philippine (0.71 | The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia. In the western Pacific Ocean,)
+L: Philopon (0.71 | John Philoponus (Greek: ; Ἰωάννης ὁ Φιλόπονος, Ioánnis o Philóponos; c. 490 – c. 570), also known as John the)
+
+<output>
+Answer: A: philip
+
+
+
+<input>
+Cloze sentence: in [BLANK] tragedy antigone pauline is story continues after his death
+Options: A: sophocles (1.00 | Sophocles (c. 497/496 – winter 406/405 BC) was an ancient Greek tragedian known as one of three from whom at)
+B: Sophocles (1.00 | Sophocles (c. 497/496 – winter 406/405 BC) was an ancient Greek tragedian known as one of three from whom at)
+C: Paso Robles (0.62 | Paso Robles ( PASS-ə ROH-bəlz), officially El Paso de Robles (Spanish for The Pass of Oaks), is a city in)
+D: Xenocles (0.60 | Xenocles (Ancient Greek: Ξενοκλῆς) was an ancient Greek tragedian. He won a victory at the Dionysia in 415 BC with)
+E: Sohonet (0.60 | Sohonet is a community-of-interest network for the television, film and media production community based in the Soho area of London.)
+F: Eteocles (0.60 | In Greek mythology, Eteocles (; Ancient Greek: Ἐτεοκλῆς) was a king of Thebes, the son of Oedipus and either Jocasta)
+G: Domokos (0.60 | Domokos (Greek: Δομοκός), the ancient Thaumacus or Thaumace (Θαυμακός, Θαυμάκη), is a town and a municipality in Phthiotis, Greece. The)
+H: Phokas (0.60 | Phocas (Latin: Focas; Ancient Greek: Φωκάς, romanized: Phōkás; 547 – 5 October 610) was Byzantine emperor from 602 to 610.)
+I: opoles (0.60 | Opole (Polish: [ɔˈpɔlɛ] ; Silesian: Ôpole; Silesian German: Uppeln) is a city located in southern Poland on the Oder River)
+J: Ozols (0.60 | Ozols (masculine; old orthography: O(h)sol), feminine: Ozola is a Latvian surname, derived from the Latvian word for "oak". Individuals with)
+K: Go-Local (0.60 | The following is a list of films and other media in which Mickey Mouse has appeared, only featuring projects either)
+
+<output>
+Answer: A: sophocles
+
 
 
 <input>
@@ -222,6 +235,7 @@ L: Geoffrey Elton (0.53 | Sir Geoffrey Rudolph Elton (born Gottfried Rudolf Otto
 Answer: B: generally level
 
 
+
 <input>
 Cloze sentence: [BLANK] blogs regularly on huffington post
 Options: A: lamb (1.00 | Lamb or The Lamb may refer to: A young sheep Lamb and mutton, the meat of sheep .Lamb and mutton,)
@@ -241,6 +255,7 @@ L: Tam (1.00 | TAM may refer to: .LATAM Airlines Brasil, formerly TAM Linhas Aé
 Answer: K: lam
 
 
+
 <input>
 Cloze sentence: lamb blogs regularly on [BLANK]
 Options: A: huffington post (1.00 | huffington post)
@@ -257,82 +272,3 @@ K: The Boston Post (0.60 | The Boston Post was a daily newspaper in New England 
 
 <output>
 Answer: A: huffington post
-
-
-<input>
-Cloze sentence: but no more than that [BLANK] surpasses him by a long way
-Options: A: bk (1.00 | bk)
-B: BC (0.50 | BC most often refers to: Before Christ, a calendar era based on the traditionally reckoned year of the birth of)
-C: beecke (0.67 | beecke)
-D: Bukay (0.67 | David Bukay is a Professor of Middle East Studies at the University of Haifa. He is the author of Islamic)
-E: Bek (0.67 | Bek or BEK may refer to: .Khagan Bek is the title used by the bek (generalissimo) of the Khazars. .Beck)
-F: back (0.67 | The human back, also called the dorsum (pl.: dorsa), is the large posterior area of the human body, rising from)
-G: Book (0.67 | A book is an object recording information in the form of printed writing or images. Modern books are typically in)
-H: Buck (0.67 | Buck may refer to: .Buck buck (also known as Johnny-on-a-Pony, or Johnny-on-the-Pony) is a children's game with several variants. One)
-I: beack (0.67 | Julia Hart (born November 8, 2001) is an American professional wrestler and former cheerleader. She is signed to All Elite)
-J: Bock (0.67 | Bock (German: [bɔk] ) is a strong German beer, usually a dark lager. .Bock is a surname. Notable people with)
-K: Balk (0.67 | In baseball, a balk is a set of illegal motions or actions that a pitcher may make. Most of these)
-L: Block (1.00 | Block or blocked may refer to: .The Block may refer to: .Blocking may refer to: .The General Dynamics F-16 Fighting)
-
-<output>
-Answer: C: beecke
-
-
-<input>
-Cloze sentence: [BLANK] begins to form an attachment to smith
-Options: A: capaldi (1.00 | Peter Dougan Capaldi (; born 14 April 1958) is a Scottish actor, director, singer and guitarist. He portrayed the twelfth)
-B: capelti (0.57 | )
-C: kapauty (0.43 | )
-D: kapelti (0.57 | )
-E: capete (0.29 | Laura Codruța Kövesi (née Lascu; Romanian pronunciation: [ˈla.ura koˈdrut͡sa ˈkøveʃi]; born 15 May 1973) is the first European Chief Prosecutor)
-F: capote (0.29 | Truman Garcia Capote ( kə-POH-tee; born Truman Streckfus Persons; September 30, 1924 – August 25, 1984) was an American novelist,)
-G: Capaldi (0.62 | Peter Dougan Capaldi (; born 14 April 1958) is a Scottish actor, director, singer and guitarist. He portrayed the twelfth)
-H: Cataldi (0.71 | Cataldi is an Italian surname. Notable people with the surname include: Angelo Cataldi (born 1951), American radio personality Anna Cataldi)
-I: Castaldi (0.71 | Castaldi is a surname. Notable people with the surname include: Alfa Castaldi (1926–1995), Italian photographer Bellerofonte Castaldi (1580–1649), Italian composer,)
-J: Papale (0.71 | Vincent Francis Papale (born February 9, 1946) is an American former professional football player who was a wide receiver. He)
-K: Kalady (0.71 | Kalady or Kaladi is a town located between Angamaly and Perumbavoor, east of the Periyar river, near to Malayattoor in)
-L: Copley (0.71 | Copley may refer to: .Sharlto Copley (born November 27, 1973) is a South African actor. His acting credits include roles)
-M: casale (0.71 | Casale may refer to: Casalis, medieval Latin for a group of houses in the countryside .Gerald Vincent Casale ( kə-SAW-lee))
-N: Cappagli (0.75 | Norma Gladys Cappagli (20 September 1939 – 22 December 2020) was an Argentine model and beauty queen who won the)
-O: Kopili (0.86 | Kopili River is an interstate river in Northeast India that flows through the states of Meghalaya and Assam and is)
-P: Gastaldi (1.00 | Gastaldi is a surname. Notable people with the surname include: Andrea Gastaldi (1826–1889), Italian painter Bartolomeo Gastaldi (1818–1879), Italian geologist)
-
-<output>
-Answer: F: capote
-
-
-<input>
-Cloze sentence: capaldi begins to form an attachment to [BLANK]
-Options: A: smith (1.00 | Smith may refer to: .Willard Carroll Smith II (born September 25, 1968) is an American actor, rapper, and film producer.)
-B: Smith (1.00 | Smith may refer to: .Willard Carroll Smith II (born September 25, 1968) is an American actor, rapper, and film producer.)
-C: Smiths (0.80 | The Smiths were an English rock band formed in Manchester in 1982, composed of Morrissey (vocals), Johnny Marr (guitar), Andy)
-D: Smithie (0.80 | Morgane Polanski (born 20 January 1993) is a French-Polish actress, best known for portraying Princess Gisla in the History Channel)
-E: Stith (0.75 | Stith is a surname. It may refer to: Persons Shyrone O. Stith (b. 1978). American Professional Football player Bryant Stith)
-F: Smear (0.75 | Smear may refer to: A smear test, wherein a sample is smeared over a microscope slide to be studied for)
-G: Smit (0.75 | Smit is a Dutch occupational surname. It represents an archaic spelling of the Dutch word "smid" for "smith" (metal worker))
-H: Sith (0.75 | The Sith are the main antagonists in the fictional universe of the Star Wars franchise. They are the antithesis and)
-I: Nasmith (0.67 | Naismith, Nasmith, Nasmyth, or Naysmith may refer to: .Ted Nasmith (born 1956) is a Canadian artist, illustrator and architectural renderer.)
-J: Simic (0.60 | Simic may refer to: Simić, a Serbian and Croatian surname Šimić, a Croatian and Serbian surname Šimic, a Slovene surname)
-K: Smits (0.60 | Jimmy L. Smits (born July 9, 1955) is an American actor. He is best known for playing attorney Victor Sifuentes)
-
-<output>
-Answer: A: smith
-
-
-<input>
-Cloze sentence: the spin off company was named [BLANK]
-Options: A: paperlinks (1.00 | Rupert Fawcett is a British cartoonist and writer, who is best known for his critically acclaimed comic strips, Fred (produced)
-B: papermill (0.55 | A paper mill is a factory devoted to making paper from vegetable fibres such as wood pulp, old rags, and)
-C: Kamerling (0.55 | Anthonie Willem Constantijn Gneomar "Antonie" Kamerling (Dutch pronunciation: [ˈɑntoːni ˈkaːmərlɪŋ]; 25 August 1966 – 6 October 2010) was a Dutch)
-D: paper-hanger (0.55 | Paper hanger may refer to: A tradesman who applies wallpaper to a wall Cheque fraud, the unlawful use of cheques)
-E: Cypherpunks (0.55 | A cypherpunk is one who advocates the widespread use of strong cryptography and privacy-enhancing technologies as a means of effecting)
-F: Syrinx (0.55 | Syrinx)
-G: matrix (0.55 | Matrix (pl.: matrices or matrixes) or MATRIX may refer to: .The Matrix is a 1999 science fiction action film written)
-H: Teerlinc (0.55 | Levina Teerlinc (1510s – 23 June 1576) was a Flemish Renaissance miniaturist who served as a painter to the English)
-I: Haterius (0.58 | Quintus Haterius Antoninus or known as Antoninus was a Roman senator, who was active during the reign of Claudius and)
-J: Papertown (0.64 | Phantom settlements, or paper towns, are settlements that appear on maps but do not actually exist. They are either accidents)
-K: phalanx (0.64 | The phalanx (pl.: phalanxes or phalanges) was a rectangular mass military formation, usually composed entirely of heavy infantry armed with)
-L: paperlinx (1.00 | paperlinx)
-
-<output>
-Answer: L: paperlinx

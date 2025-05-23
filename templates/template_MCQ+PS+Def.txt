@@ -1,8 +1,8 @@
 [Task Description]
-You are given a cloze sentence and candidate named entities.
+You are given a cloze sentence, candidate named entities, their phonetic similarity scores, and their definitions.
 The sentence are formatted as a cloze test, where the blanks to fill are indicated by [Blank].
 Each named entity is provided with several options indicated by ID letters A, B, C, etc.
-Each option follows the format: [ID letter]: [Named-Entity]
+Each option follows the format: [ID letter]: [Named-Entity] ([Phonetic similarity score] | [Definition])
 
 Your task is to identify the most appropriate Named-Entity for [BLANK].
 Please provide the answer with [letter]: [Named-Entity] format.

@@ -42,3 +42,31 @@ def formatting_mcq(datapoint, q, f_dict):
     ## =============== ##     
         
     return masked_sentence, options
+
+
+
+def formatting_mcq_naive(datapoint, q):
+
+    numbering = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P"]
+
+    ## he [Blank] need it. # fill-in-the-blank sentence vs. cloze sentence
+    masked_sentence = datapoint["s-query"][q]
+    
+    ## A: rarely, B: really, C: rally
+    hyp_ne = list(datapoint["hyps-NE"][q][0].keys())
+    retr_ne = list(datapoint["retr-NE"][q][0].keys())
+    ne = hyp_ne + retr_ne
+    
+
+    set_ne = []
+    for n_idx, n in enumerate(ne):
+        if n not in set_ne:
+            set_ne.append(n)
+            
+    ## === MCQ=== ##    
+    options = ""          
+    for num, n in enumerate(set_ne):
+        options += f"{numbering[num]}: {n}\n" 
+    ## =============== ##     
+        
+    return masked_sentence, options

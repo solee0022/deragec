@@ -5,7 +5,7 @@ import openai
 import fire
 import argparse
 from functools import partial
-from utils.formatting_mcq import formatting_mcq
+from utils.formatting_mcq import formatting_mcq, formatting_mcq_naive
 
 # python inference_filtering.py --method DeRAGEC --data_type cv
 parser = argparse.ArgumentParser()
@@ -16,7 +16,7 @@ parser.add_argument('-d', '--data_type', type=str, default="cv",
 args = parser.parse_args()
 
 class Config():
-    method: str = args.method # RAGEC|DeRAGEC
+    method: str = args.method # RAGEC+MCQ|RAGEC+MCQ+PS+Def|DeRAGEC
     data_type: str = args.data_type # cv|stop
     model_id: str = "hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4" # hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4|gpt-4o-mini-2024-07-18
     asr_model: str = "whisper-turbo"
@@ -64,10 +64,12 @@ def main(
     fewshot_examples = fewshot_examples.read()
     fewshot_examples = "<input>".join(fewshot_examples.split("<input>")[:4]) # Number of few-shot examples included in the prompt
     
-    if cfg.method == "RAGEC":
+    if cfg.method == "RAGEC+MCQ":
         template = open(f"templates/template_MCQ.txt", "r")
-    if cfg.method == "DeRAGEC":
-        template = open(f"templates/template_MCQ+reasoning.txt", "r")
+    if cfg.method == "RAGEC+PS+Def":
+        template = open(f"templates/template_MCQ+PS+Def.txt", "r")
+    elif cfg.method == "DeRAGEC":
+        template = open(f"templates/template_MCQ+PS+Def+reasoning.txt", "r")
     template = template.read()
     
     # NE dictionary
@@ -80,7 +82,7 @@ def main(
 
     # 3. inference
     for q in datapoint["p-query"]:
-        input = format_prompt(template, datapoint, q, f_dict)
+        input = format_prompt(cfg.method, template, datapoint, q, f_dict)
         
         system_prompt = "You are a helpful assistant that selects the correct Named Entity to fill in the blank space."
         prompt = [
@@ -117,7 +119,7 @@ def main(
         else:
             print(assistant_response)
         
-        if cfg.method == "RAGEC":
+        if cfg.method != "DeRAGEC":
             datapoint["filtered-NE"][q] = assistant_response.split("Answer:")[1].split(":")[1].strip()
             datapoint["r-NE"][q] = None
                 
@@ -129,9 +131,13 @@ def main(
         file.write("\n")
     
 
-def format_prompt(template, datapoint, q, f_dict):
+def format_prompt(method, template, datapoint, q, f_dict):
     
-    masked_sentence, options = formatting_mcq(datapoint, q, f_dict)
+    if method == "RAGEC+MCQ":
+        masked_sentence, options = formatting_mcq_naive(datapoint, q)
+    else:
+        masked_sentence, options = formatting_mcq(datapoint, q, f_dict)
+        
     prompt = template(masked_sentence=masked_sentence, options=options)
                 
     return prompt
