@@ -22,7 +22,7 @@ We provide one **Common Voice** (`cv`) datapoint and one **STOP** (`stop`) datap
 
 
 ## 🤖 Model
-To evaluate our method, we apply two language models to both named-entity filtering and generative error correction:
+To evaluate our method, we apply two language models to both named-entity filtering and error correction:
 
 - **Meta-Llama-3.1-70B-Instruct** (AWQ-INT4) — ```hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4```
 - **GPT-4o-mini** — ```gpt-4o-mini-2024-07-18```
